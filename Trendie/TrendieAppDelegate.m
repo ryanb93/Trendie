@@ -6,14 +6,36 @@
 //  Copyright (c) 2013 Ryan Burke. All rights reserved.
 //
 
-#import "trendieAppDelegate.h"
+#import "TrendieAppDelegate.h"
+#import "TrendsViewController.h"
 
-@implementation trendieAppDelegate
+@implementation TrendieAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    //Tab View.
+    TrendsViewController *tvc = [[TrendsViewController alloc] init];
+    UINavigationController *trendsNav = [[UINavigationController alloc] initWithRootViewController:tvc];
+    trendsNav.title = @"Trending";
+    trendsNav.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:1];
+    
+    UINavigationController *searchNav = [[UINavigationController alloc] init];
+    searchNav.title = @"Search";
+    searchNav.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:2];
+    
+    UINavigationController *settingsNav = [[UINavigationController alloc] init];
+    settingsNav.title = @"Settings";
+    settingsNav.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore tag:3];
+
+    NSArray *tabs = [NSArray arrayWithObjects:trendsNav, searchNav, settingsNav, nil];
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    [tbc setViewControllers:tabs];
+    
+    [self.window setRootViewController:tbc];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

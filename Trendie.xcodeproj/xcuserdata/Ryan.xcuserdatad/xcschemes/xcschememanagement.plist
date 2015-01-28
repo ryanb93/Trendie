@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Trendie copy copy.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Trendie copy.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>Trendie.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,16 +18,6 @@
 			<true/>
 		</dict>
 		<key>9AE1C5FA185FB0EA004F7E00</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9AE1C65E18635DA3004F7E00</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9AE1C68418635DA5004F7E00</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface trendieAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TrendieAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

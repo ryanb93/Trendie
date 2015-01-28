@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AE1C5DF185FB0EA004F7E00"
-               BuildableName = "Trendie.app"
-               BlueprintName = "Trendie"
+               BlueprintIdentifier = "9AE1C68418635DA5004F7E00"
+               BuildableName = "Trendie copy.app"
+               BlueprintName = "Trendie copy copy"
                ReferencedContainer = "container:Trendie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AE1C5FA185FB0EA004F7E00"
-               BuildableName = "TrendieTests.xctest"
-               BlueprintName = "TrendieTests"
-               ReferencedContainer = "container:Trendie.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9AE1C5DF185FB0EA004F7E00"
-            BuildableName = "Trendie.app"
-            BlueprintName = "Trendie"
+            BlueprintIdentifier = "9AE1C68418635DA5004F7E00"
+            BuildableName = "Trendie copy.app"
+            BlueprintName = "Trendie copy copy"
             ReferencedContainer = "container:Trendie.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9AE1C5DF185FB0EA004F7E00"
-            BuildableName = "Trendie.app"
-            BlueprintName = "Trendie"
+            BlueprintIdentifier = "9AE1C68418635DA5004F7E00"
+            BuildableName = "Trendie copy.app"
+            BlueprintName = "Trendie copy copy"
             ReferencedContainer = "container:Trendie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9AE1C5DF185FB0EA004F7E00"
-            BuildableName = "Trendie.app"
-            BlueprintName = "Trendie"
+            BlueprintIdentifier = "9AE1C68418635DA5004F7E00"
+            BuildableName = "Trendie copy.app"
+            BlueprintName = "Trendie copy copy"
             ReferencedContainer = "container:Trendie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
